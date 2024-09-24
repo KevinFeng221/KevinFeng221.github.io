@@ -35,3 +35,10 @@ a:active{
     display: block;
 }
 
+table{
+    width: 200px;
+}
+
+table, td{
+    border:1px solid #000;
+}
