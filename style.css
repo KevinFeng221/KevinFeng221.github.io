@@ -1,25 +1,27 @@
 body{
     background-color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 p{
-    font-family: Arial, Helvetica;
-    font-size: 12px;
+    font-family:'Trebuchet MS';
+    font-size: 8px;
 }
 h1{
     background-color:azure;
-    font-family: Times New Roman;
+    font-family: 'Times New Roman';
     font-size: 32px;
 }
 
 h2{
     background-color:blueviolet;
-    font-family:Courier New;
+    font-family:'Courier New';
     font-size: 25px;
 }
 
 h3{
     background-color:chartreuse;
-    font-family:Gill Sans;
+    font-family:'Gill Sans';
     font-size: 18px;
 }
 
@@ -32,3 +34,4 @@ a:active{
     background-color:orange;
     display: block;
 }
+
