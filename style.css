@@ -36,11 +36,11 @@ a:active{
 }
 
 table{
-    width: 500px;
-    border-spacing: 20px;
+    width: 250px;
+    border-spacing: 5px;
 }
 
-table, th , td{
+table, td{
     border:1px solid #000;
     color:#000;
 }
