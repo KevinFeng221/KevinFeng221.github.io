@@ -35,3 +35,6 @@ a:active{
     display: block;
 }
 
+table{
+    width: 500px;
+}
