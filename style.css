@@ -37,6 +37,7 @@ a:active{
 
 table{
     width: 500px;
+    border-spacing: 20px;
 }
 
 table, td{
