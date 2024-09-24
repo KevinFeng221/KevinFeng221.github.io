@@ -6,19 +6,29 @@ p{
     font-size: 12px;
 }
 h1{
-    background-color:azure
-
+    background-color:azure;
+    font-family: Times New Roman;
+    font-size: 32px;
 }
 
 h2{
-    background-color:blueviolet
+    background-color:blueviolet;
+    font-family:Courier New;
+    font-size: 25px;
 }
 
 h3{
-    background-color:chartreuse
+    background-color:chartreuse;
+    font-family:Gill Sans;
+    font-size: 18px;
 }
 
-a:hover {
+a:hover{
     background-color:aqua;
+    display: block;
+}
+
+a:active{
+    background-color:orange;
     display: block;
 }
