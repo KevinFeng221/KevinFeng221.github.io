@@ -39,6 +39,7 @@ table{
     width: 350px;
 }
 
-table, td{
+td{
+    border:1px solid #000;
     color:#000;
 }
