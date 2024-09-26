@@ -31,6 +31,14 @@ h3{
     font-size: 18px;
 }
 
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:blue;
+}
+
 a:hover{
     background-color:skyblue;
     display: block;
@@ -43,6 +51,7 @@ a:active{
 
 table{
     width: 350px;
+    border-collapse: collapse
 }
 
 td{
