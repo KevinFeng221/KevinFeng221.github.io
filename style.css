@@ -70,6 +70,26 @@ td{
     height: 250;
 }
 
+.navMenu ul{
+    list-style-type: none;
+    background-color:#000;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navMenu a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+}
+
+.navbar li{
+    float: left;
+}
+
 .dropLinks{
     display: inline-block;
 }
@@ -95,7 +115,7 @@ td{
     display: block;
 }
 
-w
+
 .dropContacts{
     display: inline-block;
 }
