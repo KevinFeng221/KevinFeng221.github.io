@@ -70,23 +70,27 @@ td{
     height: 250;
 }
 
-.navMenu ul{
-    background-color:#000;
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-    overflow: hidden;
+.dropdownMenu{
+    display: inline-block;
+}
+.dropdownMenu button{
+    background-color:purple;
+    color:white;
 }
 
-.navMenu a{
-    color: white;
-    text-decoration: none;
+.dropdownMenu a{
     display: block;
-    text-align: center;
-    padding: 15px;
-
+    color:white;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.navMenu li{
-    float: left;
+.dropdownMenu .content{
+    background-color:black;
+    position: absolute;
+    display:none
+}
+
+.dropdown:hover .content{
+    display: block;
 }
