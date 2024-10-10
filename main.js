@@ -1,11 +1,11 @@
 
 //declares name variable
-let username;
+let name;
 
 //set up an event listener for the button to get the name
 document.getElementById("mySubmit").onclick = function(){
-    username = document.getElementById("myText").value;
-    document.getElementById("myH1").textContent = `Hello ${username}`
+    name = document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = `Hello ${name}`
 }
 
 //creates a bigger image when clicked
