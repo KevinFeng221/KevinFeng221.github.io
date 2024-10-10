@@ -61,8 +61,8 @@ td{
 
 .picPos{
     position:absolute;
-    top: -250px;
     left: 1700px;
+    top:-30px;
 }
 
 .enlarged{
