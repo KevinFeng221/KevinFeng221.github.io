@@ -88,6 +88,7 @@ td{
 .dropdownMenu .linkContent{
     background-color:black;
     position: absolute;
+    display: none;
 }
 
 .dropdownMenu:hover .linkContent{
