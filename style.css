@@ -62,6 +62,7 @@ td{
 .picPos{
     position:absolute;
     left: 1700px;
+    top: -1px;
     
 }
 
