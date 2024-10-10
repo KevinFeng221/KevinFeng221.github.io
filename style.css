@@ -70,27 +70,53 @@ td{
     height: 250;
 }
 
-.dropdownMenu{
+.dropLinks{
     display: inline-block;
 }
-.dropdownMenu button{
+.dropLinks button{
     background-color:purple;
     color:white;
 }
 
-.dropdownMenu a{
+.dropLinks a{
     display: block;
     color:white;
     text-decoration: none;
     padding: 10px 15px;
 }
 
-.dropdownMenu .linkContent{
+.dropLinks .linkContent{
     background-color:black;
     position: absolute;
     display: none;
 }
 
-.dropdownMenu:hover .linkContent{
+.dropLinks:hover .linkContent{
+    display: block;
+}
+
+w
+.dropContacts{
+    display: inline-block;
+}
+.dropContacts button{
+    background-color:purple;
+    color:white;
+}
+
+.dropContacts a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropContacts .linkContent{
+    background-color:black;
+    position: absolute;
+    display: none;
+}
+
+.dropContacts:hover .linkContent{
     display: block;
 }
