@@ -92,9 +92,6 @@ td{
 
 .dropLinks{
     display: inline-block;
-    position:absolute;
-    top: -5px;
-    left: 300px;
 }
 .dropLinks button{
     background-color:purple;
