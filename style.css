@@ -85,12 +85,12 @@ td{
     padding: 10px;
 }
 
-.dropdownMenu .content{
+.dropdownMenu .linkContent{
     background-color:black;
     position: absolute;
     display:none
 }
 
-.dropdown:hover .content{
+.dropdown:hover .linkContent{
     display: block;
 }
