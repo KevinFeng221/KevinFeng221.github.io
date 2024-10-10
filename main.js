@@ -14,3 +14,11 @@ function enlargeImage() {
         img.classList.add("enlarged");
     }  
     }
+
+    function highlightNav(navMenu){
+        ClipboardItem.style.backgroundColor = "yellow";
+    }
+
+    function unhighlightNav(navMenu){
+        ClipboardItem.style.backgroundColor ="";
+    }
