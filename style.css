@@ -69,3 +69,22 @@ td{
 .enlarged{
     height: 250;
 }
+
+.navMenu ul{
+    background-color:#000;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navMenu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+.navbar li{
+    float: left;
+}
