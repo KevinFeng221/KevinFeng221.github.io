@@ -1,3 +1,4 @@
+
 body{
     background-color:rgb(172, 127, 255);
     font-family: 'Arial';
@@ -8,11 +9,13 @@ body{
     margin-left: 15px;
     color:lightgray;
 }
+
 p{
     font-family:'Trebuchet MS';
     font-size: 12px;
     color:lightgray;
 }
+
 h1{
     color:goldenrod;
     font-family: 'Times New Roman';
@@ -58,18 +61,18 @@ td{
     border:1px solid #000;
     color:#000;
 }
-
+/*setting the position of my profile picture*/
 .picPos{
     position:absolute;
     left: 1725px;
     top: 30px;
     
 }
-
+/* change the size of it when clicked*/
 .enlarged{
     height: 250;
 }
-
+/*adds the bar to the nav menu and make it a horizontal menu*/
 .navMenu ul{
     list-style-type: none;
     background-color:#000;
@@ -77,7 +80,7 @@ td{
     margin: 0px;
     overflow: hidden;
 }
-
+/*changes the text  settings on the nav menu */
 .navMenu a{
     color:white;
     text-decoration: none;
@@ -85,32 +88,33 @@ td{
     display: block;
     text-align:center;
 }
-
+/* moves the menu to the left to set up for a horizontal menu*/
 .navMenu li{
     float: left;
 }
-
+/* */
 .dropLinks{
     display: inline-block;
 }
+/* changes the settings of the dropdown menu button*/
 .dropLinks button{
     background-color:purple;
     color:white;
 }
-
+/* changes the settings on the information that is displayed after hovering over the dropdown button*/
 .dropLinks a{
     display: block;
     color:white;
     text-decoration: none;
     padding: 10px 15px;
 }
-
+/* does not display information when not hovering over the button*/
 .dropLinks .linkContent{
     background-color:black;
     position: absolute;
     display: none;
 }
-
+/* shows the dropdown menu*/
 .dropLinks:hover .linkContent{
     display: block;
 }
@@ -119,6 +123,7 @@ td{
 .dropContacts{
     display: inline-block;
 }
+
 .dropContacts button{
     background-color:purple;
     color:white;
