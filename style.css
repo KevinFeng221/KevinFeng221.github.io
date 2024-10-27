@@ -64,7 +64,7 @@ td{
 /*setting the position of my profile picture*/
 .picPos{
     position:absolute;
-    left: 1725px;
+    right: 30px;
     top: 30px;
     
 }
