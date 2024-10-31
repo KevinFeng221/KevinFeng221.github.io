@@ -22,7 +22,7 @@ function handleSubmit(event){
     localStorage.setItem('bday', bday);
     localStorage.setItem('phone', phone);
     localStorage.setItem('importance', importance);
-
+    //tells me that the form data is saved in console 
     console.log('Form data saved to local storages');
 }
 
