@@ -64,9 +64,8 @@ td{
 /*setting the position of my profile picture*/
 .picPos{
     position:absolute;
-    left: 1725px;
+    right: 30px;
     top: 30px;
-    
 }
 /* change the size of it when clicked*/
 .enlarged{
@@ -119,7 +118,6 @@ td{
     display: block;
 }
 
-
 .dropContacts{
     display: inline-block;
 }
@@ -144,4 +142,69 @@ td{
 
 .dropContacts:hover .linkContent{
     display: block;
+}
+
+/*changes the position of the questions header*/
+#questions{
+    margin-top: -480px;
+    margin-left: 35px;
+    position: absolute;
+}
+
+/*creates a border around the questions in the form*/
+form{
+    border: 2px solid black;
+    width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* creates a black border on all textareas*/
+textarea, input{
+    border: 1px solid #000;
+}
+/* makes it so that the border outline turns blue when clicked on */
+textarea:focus,
+input:focus {
+    outline:1px solid blue
+}
+/*set labels to display as block with top margin spacing to create a nice vertical appearance*/
+label {
+    display:block;
+    margin-top: 1em;
+}
+/*remove top margin for labels inside the check class*/
+.checks label {
+    margin-top: 0;
+}
+/*changes top margin for first label in the form*/
+label:first-of-type {
+    margin-top: 50px;
+}
+/*add bottom margin to elements in check class for spacing*/
+.checks {
+    margin-bottom: 1em;
+}
+/*display checkboxes and radio buttons with labels inline*/
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
+    display:inline-block;
+}
+/*add left margin for radio buttons to create spacing between the options*/
+input[type="radio"] {
+    margin-left: 1.5em;
+    margin-right: 0;
+}
+/*remove left margin for the first radio button*/
+input[type="radio"]:first-of-type {
+    margin-left: 1px;
+}
+/*add a top margin for hiring dec so that it does not connect with the text area from a different question*/
+label[for="hiringDec"]{
+    margin-top:1em;
+}
+/*fixes the issue where this question gets moved down by the first of type*/
+label[for="like"]{
+    margin-top: -15px;
 }

@@ -28,9 +28,9 @@
             <a href="https://www.youtube.com/">YouTube</a>
             <a href="https://www.amazon.ca/">Amazon</a>
         </div>
+
     </div>
     <!--dropdown for contacts-->
-
     <div class="dropContacts">
         <button>Contacts</button>
         <div class="linkContent">
@@ -39,11 +39,78 @@
         </div>
     </div>
 
-    <div class="picPos">
+      <!--creating forms-->
+      <div>
+        <form>
+            <!--text input for this question-->
+            <label for="What is?">What Is?</label>
+            <input type="whatIs" id="whatIs">
+            <!--dropdown select input for age range-->
+            <label for="ageRange">What is your age range?</label>
+            <select id="ageRange" name="ageRange">
+                <option value="u18">Under 18</option>
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-44">35-44</option>
+                <option value="45-44">45-54</option>
+                <option value="55above">55 and above</option>
+            </select>
+                <!--text area for user opinion on person website-->
+                <label for="proImg">Do you think a personal website can enhance a candidates professional image?</label>
+                <textarea id="proImg"></textarea>
+            <!--radio buttons for frequency of using websites in hiring decisions-->
+            <div class="checks">
 
-    <img id="profilePic" src="onecard pic.jpg" alt="Your Image" onclick="enlargeImage()" height="100" />  
+                <label for="hiringDec">How often do you use personal websites to make hiring decisions?</label>
+                <!--radio buttons for the answers-->
+                <input type="radio" id="never" value="never">
+                <label for="never">Never</label>
+
+                <input type="radio" id="rarley" value="rarley">
+                <label for="rarley">Rarley</label>
+
+                <input type="radio" id="sometimes" value="sometimes">
+                <label for="sometimes">Sometimes</label>
+
+                <input type="radio" id="often" value="often">
+                <label for="often">Often</label>
+                
+                <input type="radio" id="always" value="always">
+                <label for="always">Always</label>
+        </div>
+            <!--checkbox for user opinion on portfolio website-->
+            <div class="checks">
+
+                <br><label for="like">Do you like portfolio websites?</label>
+                <input type="checkbox" id="like" name="like" value="like">
+                <!--checkboxes for yes and no-->
+                <label for="like">Yes</label>
+                <input type="checkbox" id="like" name="like" value="like">
+                <label for="like">No</label>
+        </div>
+        <!--data input for user birthday-->
+            <label for="bday">When is your birthday?</label>
+            <input type="date" id="bday">
+            <!--telephone input for user phone number-->
+            <label for="phone">What is your phone number?</label>
+            <input type="tel" id="phone" name="phone">
+            <!--range slider for rating importance of a digital portfolio-->
+            <label for="importance">How important is a digital portfolio?(1-5)</label>
+           <input type="range" id="importance" name="importance" min="1" max="5">
+            <!--reset button to clear all inputs from user-->
+            <br><input type="reset">
+            <!--submit button to submit all data-->
+            <input type="submit">
+            
+        </form>
 
     </div>
+
+    <div class="picPos">
+    <img src="onecard pic.jpg" alt="Your Image" onclick="enlargeImage()" height="100" id="profilePic" />  
+    </div>
+
+    <h1 id="questions">Questions</h1>
 
     <h1>Kevin Feng</h1>
 
