@@ -2,10 +2,10 @@
 //function to handle form submission and save input values to local storage
 function handleSubmit(){
     //retrieve input value from whatis, age range, pro img and hiring dec
-    const whatIs = document.getElementById('whatIs').ariaValueMax;
-    const ageRange = document.getElementById('ageRange').ariaValueMax;
-    const proImg = document.getElementById('proImg').ariaValueMax;
-    const hiringDec = document.querySelector('input[name="hiringDec"]:checked')?.ariaValueMax;
+    const whatIs = document.getElementById('whatIs').value;
+    const ageRange = document.getElementById('ageRange').value;
+    const proImg = document.getElementById('proImg').value;
+    const hiringDec = document.querySelector('input[name="hiringDec"]:checked')?.value;
     //retrives input value from checkboxes, selected date, phone number and range slider
     const likeCheckboxes = document.querySelectorAll('input[name="like"]:checked');
     const like = Array.from(likeCheckboxes).map(checkbox => checkbox.value);
