@@ -1,6 +1,7 @@
 
 //function to handle form submission and save input values to local storage
-function handleSubmit(){
+function handleSubmit(event){
+    event.preventDefault();
     //retrieve input value from whatis, age range, pro img and hiring dec
     const whatIs = document.getElementById('whatIs').value;
     const ageRange = document.getElementById('ageRange').value;
@@ -21,8 +22,16 @@ function handleSubmit(){
     localStorage.setItem('bday', bday);
     localStorage.setItem('phone', phone);
     localStorage.setItem('importance', importance);
-    //added event listener to the submit button to trigger the handleSubmit function
-    document.getElementById('button[type="submit"]').addEventListener('click', handleSubmit);
-    //added event listener to the reset button to remove local storage
-    document.querySelector('button[type="reset"]').addEventListener('click', clearStorage);
+
+    console.log('Form data saved to local storages');
 }
+
+//clears local storage on reset
+function clearStorage() {
+    localStorage.clear();
+    console.log('Local storage cleared');
+}
+//added event listener to the submit button to trigger the handleSubmit function
+document.querySelector('button[type="submit"]').addEventListener('click', handleSubmit);
+//added event listener to the reset button to remove local storage
+document.querySelector('button[type="reset"]').addEventListener('click', clearStorage);
