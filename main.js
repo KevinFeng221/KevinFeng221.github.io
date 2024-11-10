@@ -27,3 +27,28 @@ function enlargeImage() {
     function unhighlightNav(navMenu){
         ClipboardItem.style.backgroundColor ="";
     }
+    //sets up event listener for the button to toggle on and off the large text mode
+document.getElementById("toggleTextSize").addEventListener("click", function() {
+    document.body.classList.toggle("large-text");
+    });
+
+    // Toggle background color on button click
+document.getElementById("toggleBackground").addEventListener("click", function() {
+    // Toggle the class to change background color
+    document.body.classList.toggle("blueBackground");
+  });
+
+  function showAltText(imageId) {
+    const altText = document.getElementById(imageId).alt;
+    alert(altText);
+}
+
+ 
+  
+
+
+      
+   
+
+   
+      

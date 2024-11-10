@@ -8,6 +8,30 @@
     <title>My first page</title>
 </head>
 <body>
+    <!--Audio for the assignment-->
+    <div class="audio-wrapper">
+        <audio id="audioplayer" controls>
+            <source src="20240312_Modern Meme Sound Effects Compilation (so sigma).mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <div class="assistance">
+
+        <!--Button at the top of the page to enlarge the texts-->
+        <button id="toggleTextSize">Toggle Text Size</button>
+        <!--Button at the top of the page to change the background colour-->
+        <button id="toggleBackground">Toggle background colour</button>
+    </div>
+    <!--Pictures and buttons for the assignment-->
+    <div class="image-container">
+        <img src="pillow.jpeg" alt="Photo taken on 2024/11/10 at my couch" id="pillow">
+        <button onclick="showAltText('pillow')">Show Pillow Description</button>
+        <img src="crackers.jpeg" alt="Photo taken on 2024/11/10 at my table" id="crackers">
+        <button onclick="showAltText('pillow')">Show Crackers Description</button>
+        <img src="painting.jpeg" alt="Photo taken on 2024/11/10 at my wall" id="painting">
+        <button onclick="showAltText('pillow')">Show Painting Description</button>
+    </div>
+    
     <!--Welcoming the user and creating buttons-->
     <h1 id="myH1">Welcome </h1>
     <label>Name: </label>
@@ -37,6 +61,8 @@
             <p>k1feng@torontomu.ca</p>
             <p>647-642-3983</p>
         </div>
+        <!--header for the title of the form-->
+        <h1 id="questions">Questions</h1>
     </div>
       <!--creating forms-->
       <div>
@@ -107,9 +133,6 @@
     <img src="onecard pic.jpg" alt="Your Image" onclick="enlargeImage()" height="100" id="profilePic" />  
 
     </div>
-    <!--header for the title of the form-->
-    <h1 id="questions">Questions</h1>
-
     <h1>Kevin Feng</h1>
 
     <h2>Education</h2>
@@ -165,6 +188,7 @@
             <td> <div> Link to Amazon!</div></td>
         </tr>
     </table>
+
     <script src="main.js"></script>
     <script src="localStorages.js"></script>
 

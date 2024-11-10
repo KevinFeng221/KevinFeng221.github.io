@@ -146,8 +146,6 @@ td{
 
 /*changes the position of the questions header*/
 #questions{
-    margin-top: -480px;
-    margin-left: 35px;
     position: absolute;
 }
 
@@ -207,4 +205,46 @@ label[for="hiringDec"]{
 /*fixes the issue where this question gets moved down by the first of type*/
 label[for="like"]{
     margin-top: -15px;
+}
+/*increases the overall text size*/
+.large-text {
+    font-size: 1.2em;
+}
+/*targets paragraphs specifically*/
+.large-text p {
+    font-size: 1.2em;
+}
+/*targets header 1 specfically*/
+.large-text h1 {
+    font-size: 2em;
+}
+
+.blueBackground{
+    background-color: blue;
+}
+.assistance {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    text-align: center;
+}
+
+.audio-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    width: 125px;
+    height: 150px;
+}
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    text-align: center;
 }
