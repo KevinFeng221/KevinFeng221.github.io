@@ -206,18 +206,41 @@ label[for="hiringDec"]{
 label[for="like"]{
     margin-top: -15px;
 }
-/*increases the overall text size*/
-.enlarged-text {
-    transform: scale(1.2); /* Scales text by 20% */
-    transform-origin: top left; /* Ensures scaling happens from the top left */
+.content-wrapper {
+    position: fixed; /* Fix the position relative to the page */
+    top: 55%; /* Centers the box vertically */
+    right: 10px; /* Positions it 10px from the right edge */
+    transform: translateY(-50%); /* Centers it vertically */
+    padding: 20px;
+    border: 2px solid #333; /* Border around the entire content */
+    height: 46%; /* Adjust the height as necessary */
+    width: 50%; /* Adjust the width to fit your design */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: flex-start; /* Aligns content to the top of the container */
+    align-items: center; /* Centers items horizontally */
+}
+
+/* Ensures the assistance buttons are at the top */
+.assistance {
+    width: 100%; /* Ensures the buttons span the full width of the container */
+    text-align: center; /* Centers the buttons */
+    margin-bottom: 10px; /* Adds some space between the buttons and the audio player */
+}
+
+/* Centers the audio player in the middle of the container */
+.audio-wrapper {
+    width: 100%; /* Ensures the audio player spans the full width of the container */
+    text-align: center; /* Centers the audio player */
+    margin-bottom: 20px; /* Adds some space between the audio player and images */
 }
 
 /* Increases the overall text size when class is applied */
-.large-text{
+.large-text {
     font-size: 1.2em;
 }
 
-.large-text p{
+.large-text p {
     font-size: 1.1em;
 }
 
@@ -227,20 +250,6 @@ label[for="like"]{
 
 .blueBackground {
     background-color: blue;
-}
-
-.assistance {
-    position: absolute;
-    top: 28.5%;
-    left: 38%;
-    text-align: center;
-}
-
-.audio-wrapper {
-    position: absolute;
-    top: 28.5%;
-    left: 60%;
-    text-align: center;
 }
 
 /* Ensures images display with the specified size */
@@ -253,12 +262,11 @@ label[for="like"]{
 
 /* Container for all images */
 .image-container {
-    position: absolute;
-    top: 65%;
-    right: 3.5%; /* Positions container closer to the right edge */
-    transform: translateY(-50%); /* Centers vertically */
-    text-align: center;
     display: flex;
     flex-direction: row; /* Aligns items in a horizontal row */
     gap: 20px; /* Adds space between items */
+    justify-content: center; /* Centers images horizontally */
+    align-items: center; /* Centers images vertically */
+    width: 100%;
 }
+

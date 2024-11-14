@@ -8,21 +8,24 @@
     <title>My first page</title>
 </head>
 <body>
-    <!--Audio for the assignment-->
-    <div class="audio-wrapper">
-        <audio id="audioplayer" controls>
-            <source src="20240312_Modern Meme Sound Effects Compilation (so sigma).mp3" type="audio/mp3">
-        </audio>
-        <p>Source: YouTube. (n.d.). YouTube. https://www.youtube.com/watch?v=nQstIbfauyo&t  </p>
-    </div>
-
+<!-- Wrapper for all the content -->
+<div class="content-wrapper">
     <div class="assistance">
-        <!--Button at the top of the page to enlarge the texts-->
+        <!-- Button at the top of the page to enlarge the texts -->
         <button id="toggleTextSize">Toggle Text Size</button>
-        <!--Button at the top of the page to change the background colour-->
+        <!-- Button at the top of the page to change the background colour -->
         <button id="toggleBackground">Toggle background colour</button>
     </div>
-    <!--Pictures and buttons for the assignment-->
+
+        <!-- Audio for the assignment -->
+        <div class="audio-wrapper">
+            <audio id="audioplayer" controls>
+                <source src="20240312_Modern Meme Sound Effects Compilation (so sigma).mp3" type="audio/mp3">
+            </audio>
+            <p>Source: YouTube. (n.d.). YouTube. https://www.youtube.com/watch?v=nQstIbfauyo&t</p>
+        </div>
+
+    <!-- Pictures and buttons for the assignment -->
     <div class="image-container">
         <div class="image-item">
             <img src="pillow.jpeg" alt="This is a pillow on a couch" id="pillow">
@@ -40,6 +43,7 @@
             <button onclick="showAltText('painting')">Show Painting Description</button>
         </div>
     </div>
+</div>
     
     <!--Welcoming the user and creating buttons-->
     <h1 id="myH1">Welcome </h1>
