@@ -207,44 +207,58 @@ label[for="like"]{
     margin-top: -15px;
 }
 /*increases the overall text size*/
-.large-text {
+.enlarged-text {
+    transform: scale(1.2); /* Scales text by 20% */
+    transform-origin: top left; /* Ensures scaling happens from the top left */
+}
+
+/* Increases the overall text size when class is applied */
+.large-text{
     font-size: 1.2em;
 }
-/*targets paragraphs specifically*/
-.large-text p {
-    font-size: 1.2em;
+
+.large-text p{
+    font-size: 1.1em;
 }
-/*targets header 1 specfically*/
+
 .large-text h1 {
     font-size: 2em;
 }
 
-.blueBackground{
+.blueBackground {
     background-color: blue;
 }
+
 .assistance {
     position: absolute;
-    top: 25%;
+    top: 28.5%;
     left: 38%;
     text-align: center;
 }
 
 .audio-wrapper {
     position: absolute;
-    top: 25%;
-    left: 55%;
+    top: 28.5%;
+    left: 60%;
     text-align: center;
 }
 
-img {
+/* Ensures images display with the specified size */
+.image-item img {
     max-width: 100%;
     width: 125px;
-    height: 150px;
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
 }
 
+/* Container for all images */
 .image-container {
     position: absolute;
-    top: 50%;
-    right: 100px;
+    top: 65%;
+    right: 3.5%; /* Positions container closer to the right edge */
+    transform: translateY(-50%); /* Centers vertically */
     text-align: center;
+    display: flex;
+    flex-direction: row; /* Aligns items in a horizontal row */
+    gap: 20px; /* Adds space between items */
 }

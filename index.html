@@ -13,10 +13,10 @@
         <audio id="audioplayer" controls>
             <source src="20240312_Modern Meme Sound Effects Compilation (so sigma).mp3" type="audio/mp3">
         </audio>
+        <p>Source: YouTube. (n.d.). YouTube. https://www.youtube.com/watch?v=nQstIbfauyo&t  </p>
     </div>
 
     <div class="assistance">
-
         <!--Button at the top of the page to enlarge the texts-->
         <button id="toggleTextSize">Toggle Text Size</button>
         <!--Button at the top of the page to change the background colour-->
@@ -24,12 +24,21 @@
     </div>
     <!--Pictures and buttons for the assignment-->
     <div class="image-container">
-        <img src="pillow.jpeg" alt="Photo taken on 2024/11/10 at my couch" id="pillow">
-        <button onclick="showAltText('pillow')">Show Pillow Description</button>
-        <img src="crackers.jpeg" alt="Photo taken on 2024/11/10 at my table" id="crackers">
-        <button onclick="showAltText('pillow')">Show Crackers Description</button>
-        <img src="painting.jpeg" alt="Photo taken on 2024/11/10 at my wall" id="painting">
-        <button onclick="showAltText('pillow')">Show Painting Description</button>
+        <div class="image-item">
+            <img src="pillow.jpeg" alt="This is a pillow on a couch" id="pillow">
+            <p>Photo taken on 2024/11/10 at my couch</p>
+            <button onclick="showAltText('pillow')">Show Pillow Description</button>
+        </div>
+        <div class="image-item">
+            <img src="crackers.jpeg" alt="This is an unopened package of crackers on a table" id="crackers">
+            <p>Photo taken on 2024/11/10 at my table</p>
+            <button onclick="showAltText('crackers')">Show Crackers Description</button>
+        </div>
+        <div class="image-item">
+            <img src="painting.jpeg" alt="This is a painting of flowers" id="painting">
+            <p>Photo taken on 2024/11/10 at my wall</p>
+            <button onclick="showAltText('painting')">Show Painting Description</button>
+        </div>
     </div>
     
     <!--Welcoming the user and creating buttons-->
