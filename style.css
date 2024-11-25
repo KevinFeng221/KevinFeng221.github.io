@@ -207,20 +207,20 @@ label[for="like"]{
     margin-top: -15px;
 }
 .content-wrapper {
-    position: fixed; /* Fix the position relative to the page */
-    top: 55%; /* Centers the box vertically */
-    right: 10px; /* Positions it 10px from the right edge */
-    transform: translateY(-50%); /* Centers it vertically */
+    position: relative; /* Now it scrolls with the page */
+    top: auto; /* Remove fixed positioning */
+    right: auto; /* Remove fixed positioning */
+    transform: none; /* Remove centering transform */
     padding: 20px;
-    border: 2px solid #333; /* Border around the entire content */
-    height: 46%; /* Adjust the height as necessary */
-    width: 50%; /* Adjust the width to fit your design */
-    display: flex; /* Enables flexbox layout */
-    flex-direction: column; /* Stacks items vertically */
-    justify-content: flex-start; /* Aligns content to the top of the container */
-    align-items: center; /* Centers items horizontally */
+    border: 2px solid #333;
+    height: auto; /* Allow height to adjust naturally to content */
+    width: 50%; /* Adjust width to fit your design */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px auto; /* Center the wrapper horizontally */
 }
-
 /* Ensures the assistance buttons are at the top */
 .assistance {
     width: 100%; /* Ensures the buttons span the full width of the container */
