@@ -10,7 +10,7 @@
 </head>
 <body>
     <a href="https://www.instagram.com/torontomet/?hl=en" target="_blank" style="text-decoration: none; color: #E4405F; font-size: 24px;">
-        <i class="fab fa-instagram"></i> Link to TMU's instagram!
+        <i class="fab fa-instagram"></i> Link to TMU!
     </a>
 <!--Implementing the meta descrition SEO technique-->
     <meta charset="UTF-8">
@@ -18,43 +18,7 @@
     <meta name="keywords" content ="resume, digital portfolio">
     <meta name="author" content="Kevin Feng">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Wrapper for all the content -->
-<div class="content-wrapper">
-    <!--Buttons for visually impaired-->
-    <div class="assistance">
-        <!-- Button at the top of the page to enlarge the texts -->
-        <button id="toggleTextSize">Toggle Text Size</button>
-        <!-- Button at the top of the page to change the background colour -->
-        <button id="toggleBackground">Toggle background colour</button>
-    </div>
 
-        <!-- Audio for the assignment -->
-        <div class="audio-wrapper">
-            <audio id="audioplayer" controls>
-                <source src="20240312_Modern Meme Sound Effects Compilation (so sigma).mp3" type="audio/mp3">
-            </audio>
-            <p>Source: YouTube. (n.d.). YouTube. https://www.youtube.com/watch?v=nQstIbfauyo&t</p>
-        </div>
-
-    <!-- Pictures and buttons for the assignment -->
-    <div class="image-container">
-        <div class="image-item">
-            <img src="pillow.jpeg" alt="This is a pillow on a couch" id="pillow">
-            <p>Photo taken on 2024/11/10 at my couch</p>
-            <button onclick="showAltText('pillow')">Show Pillow Description</button>
-        </div>
-        <div class="image-item">
-            <img src="crackers.jpeg" alt="This is an unopened package of crackers on a table" id="crackers">
-            <p>Photo taken on 2024/11/10 at my table</p>
-            <button onclick="showAltText('crackers')">Show Crackers Description</button>
-        </div>
-        <div class="image-item">
-            <img src="painting.jpeg" alt="This is a painting of flowers" id="painting">
-            <p>Photo taken on 2024/11/10 at my wall</p>
-            <button onclick="showAltText('painting')">Show Painting Description</button>
-        </div>
-    </div>
-</div>
     
     <!--Welcoming the user and creating buttons-->
     <h1 id="myH1">Welcome </h1>
@@ -152,6 +116,43 @@
             
         </form>
     </div>
+    <!-- Wrapper for all the content -->
+<div class="content-wrapper">
+    <!--Buttons for visually impaired-->
+    <div class="assistance">
+        <!-- Button at the top of the page to enlarge the texts -->
+        <button id="toggleTextSize">Toggle Text Size</button>
+        <!-- Button at the top of the page to change the background colour -->
+        <button id="toggleBackground">Toggle background colour</button>
+    </div>
+
+        <!-- Audio for the assignment -->
+        <div class="audio-wrapper">
+            <audio id="audioplayer" controls>
+                <source src="20240312_Modern Meme Sound Effects Compilation (so sigma).mp3" type="audio/mp3">
+            </audio>
+            <p>Source: YouTube. (n.d.). YouTube. https://www.youtube.com/watch?v=nQstIbfauyo&t</p>
+        </div>
+
+    <!-- Pictures and buttons for the assignment -->
+    <div class="image-container">
+        <div class="image-item">
+            <img src="pillow.jpeg" alt="This is a pillow on a couch" id="pillow">
+            <p>Photo taken on 2024/11/10 at my couch</p>
+            <button onclick="showAltText('pillow')">Show Pillow Description</button>
+        </div>
+        <div class="image-item">
+            <img src="crackers.jpeg" alt="This is an unopened package of crackers on a table" id="crackers">
+            <p>Photo taken on 2024/11/10 at my table</p>
+            <button onclick="showAltText('crackers')">Show Crackers Description</button>
+        </div>
+        <div class="image-item">
+            <img src="painting.jpeg" alt="This is a painting of flowers" id="painting">
+            <p>Photo taken on 2024/11/10 at my wall</p>
+            <button onclick="showAltText('painting')">Show Painting Description</button>
+        </div>
+    </div>
+</div>
 
     <div class="picPos">
     <img src="onecard pic.jpg" alt="Your Image" onclick="enlargeImage()" height="100" id="profilePic" />  

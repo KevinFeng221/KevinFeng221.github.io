@@ -207,19 +207,17 @@ label[for="like"]{
     margin-top: -15px;
 }
 .content-wrapper {
-    position: relative; /* Now it scrolls with the page */
-    top: auto; /* Remove fixed positioning */
-    right: auto; /* Remove fixed positioning */
-    transform: none; /* Remove centering transform */
+    position: absolute;
+    bottom: 170px; /* Moves it up relative to its container */
+    left: 700px;
     padding: 20px;
     border: 2px solid #333;
-    height: auto; /* Allow height to adjust naturally to content */
-    width: 50%; /* Adjust width to fit your design */
+    height: auto;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: 20px auto; /* Center the wrapper horizontally */
 }
 /* Ensures the assistance buttons are at the top */
 .assistance {
