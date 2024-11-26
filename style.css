@@ -208,7 +208,7 @@ label[for="like"]{
 }
 .content-wrapper {
     position: absolute;
-    bottom: 170px; /* Moves it up relative to its container */
+    bottom: 165px; /* Moves it up relative to its container */
     left: 700px;
     padding: 20px;
     border: 2px solid #333;
